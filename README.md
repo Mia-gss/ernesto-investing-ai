@@ -126,6 +126,17 @@ Frontend estático en HTML/JS/CSS, desplegado en **GitHub Pages**, sin framework
 
 ---
 
+## Versión Streamlit (URL Permanente)
+
+🌐 URL: https://ernesto-investing-ai.streamlit.app
+
+A diferencia del frontend HTML (que depende de que la API en Colab/ngrok esté activa),
+esta versión se conecta directamente a MongoDB Atlas y está disponible 24/7,
+sin depender de que Google Colab esté ejecutándose.
+
+Recomendada para demostraciones en vivo y exposición final.
+---
+
 ## Cómo ejecutar el sistema
 
 1. **MongoDB Atlas**: crear un clúster M0 gratuito, un usuario de base de datos y habilitar el acceso de red `0.0.0.0/0`. Guardar la cadena de conexión como el Secret `MONGO_URI` en Colab.

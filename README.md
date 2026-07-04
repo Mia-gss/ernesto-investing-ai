@@ -64,7 +64,7 @@ ernesto-investing-ai/
 │
 ├── README.md                              # Este archivo
 │
-├── frontend/                              # Interfaces web (GitHub Pages)
+├── docs/                              # Interfaces web (GitHub Pages)
 │   ├── index.html                         # Portal de entrada
 │   ├── modulo_mercado.html                # Dashboard de mercado
 │   ├── modulo_svc.html                    # Clasificador SVC
